@@ -200,30 +200,85 @@ new WOW().init();
       let MyobjArray = [
         { img: 'img-1', title: '訂餐系統',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png">',
-        text:" 星期一<br> 星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>星期一<br>"
-        
-        　
+        text:"以C#翻寫原有ASP的系統,並另外有手機版網頁。"+
+             "<br/>完成時間:2014年"+
+             "<ul>"+
+             "<li>訂餐</li>"+
+             "<li>設定菜單</li>"+
+             "<li>查詢訂餐紀錄</li>"+
+             "<li>金額月統計</li>"+
+             "<li>未訂餐通知</li>"+
+            "</ul>"        　
          },
         { img: 'img-2', title: 'MES-Dashboard',
         skill:'<img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png">',
-        text:'MES-DashboardMES-DashboardMES-DashboardMES-DashboardMES-DashboardMES-Dashboard' },
+        text:"即時呈現機台生產數據並以視覺化網頁呈現。"+
+             "<br/>完成時間:2018年"+
+             "<ul>"+
+             "<li>統計進度</li>"+
+             "<li>機台連線狀況</li>"+
+             "<li>機台生產數據</li>"+
+            "</ul>"        　
+         },
         { img: 'img-3', title: '待辦事項簽核系統',
-        skill:'<img class="myimg1" src="images/kendoui.png"><img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/bootstrap-logo.png">',text:'待辦事項簽核系統待辦事項簽核系統待辦事項簽核系統待辦事項簽核系統待辦事項簽核系統待辦事項簽核系統' },
+        skill:'<img class="myimg1" src="images/kendoui.png"><img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/bootstrap-logo.png">',
+        text:"供人員追蹤工作上的重要待辦事項並給予主管簽核查看進度,並套用kendoUI。"+
+             "<br/>完成時間:2017年"+
+             "<ul>"+
+             "<li>新增待辦事項</li>"+
+             "<li>簽核待辦事項</li>"+
+             "<li>查詢待辦事項</li>"+
+            "</ul>"        　
+         },
         { img: 'img-4', title: '員工專用區(手機版)',
         skill:'<img class="myimg1" src="images/bootstrap-logo.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png"> ',
-        text:'員工專用區(手機版)員工專用區(手機版)員工專用區(手機版)員工專用區(手機版)員工專用區(手機版)員工專用區(手機版)' },
+        text:"將下列功能以bootstrap建立RWD網頁,並嵌入Android app裡面。"+
+             "<br/>完成時間:2016年"+
+             "<ul>"+
+             "<li>訂餐系統</li>"+
+             "<li>分機查詢</li>"+
+             "<li>機房監控</li>"+
+             "<li>生產管理資訊</li>"+
+            "</ul>"        　
+         },
         { img: 'img-5', title: 'AD帳號系統',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/bootstrap-logo.png">',
-        text:'AD帳號系統AD帳號系統AD帳號系統AD帳號系統' },
-        { img: 'img-6', title: 'Line溫度機器人',
+        text:"以網頁方式供管理者-增刪修-使用者AD帳號和Email,加速作業流程。"+
+             "<br/>完成時間:2015年"+
+             "<ul>"+
+             "<li>查詢-建立AD帳號,群組</li>"+
+             "<li>建立Email</li>"+
+             "<li>設定離職人員</li>"+
+             "<li>刪除離職帳號及信箱</li>"+
+            "</ul>"        　
+         },
+        { img: 'img-6', title: 'Line溫濕度機器人',
         skill:'<img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:'Line溫度機器人Line溫度機器人Line溫度機器人Line溫度機器人' },     
+        text:"使用LineBot即時通知機房溫度狀態,避免機房溫濕度異常。"+
+             "<br/>完成時間:2016年"+
+             "<ul>"+
+             "<li>溫濕度查詢</li>"+
+             "<li>溫濕度異常Line通知</li>"+
+            "</ul>"        　
+         },     
         { img: 'img-7', title: '滿意度調查表',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:'滿意度調查表滿意度調查表滿意度調查表滿意度調查表' },
+        text:"供人員填寫人資訓練滿意度調查表。"+
+             "<br/>完成時間:2012年"+
+             "<ul>"+
+             "<li>填寫滿意度調查表</li>"+
+             "<li>報表統計</li>"+
+            "</ul>"        　
+         }, 
         { img: 'img-8', title: '課程系統',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:'課程系統課程系統課程系統課程系統課程系統' },            
+        text:"供人員填寫教育訓練課後考試。"+
+             "<br/>完成時間:2013年"+
+             "<ul>"+
+             "<li>設定考試題庫</li>"+
+             "<li>人員考試</li>"+
+            "</ul>"        　
+         },          
       ];
       let Myobj = search(mycheck_text, MyobjArray);
       console.log('mytitle='+Myobj.title);
