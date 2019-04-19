@@ -57,104 +57,7 @@
 
 
 
-/* #Projects 區塊*/
 
-#Projects{
-background-color:#100E17;  
-width:100% !important; 
-height:1024px !important; 
-color:white;
-
-}
-
-#PContainer{
-text-align: center; 
-padding-top: 8%  !important;
-}
-
-
-
-
-
-
-
-
-.a1{
-
-  text-align: center;
-  border:1px black solid;  
-}
-
-#modal1{
-
-background-color: #1F1E24 !important;
-}
-/* .modal { width: 80% !important ; height: 55% !important ; }  */
-.modal { 
-
-width: 100% !important ;
-/* height: 150% !important ;
-overflow: hidden; */
-
-} 
-
-.myleft{
-
-width: 100% !important ;
-color:white !important;
-}
-.myright{
-text-align: center;
-width: 100% !important ;
-}
-
-.myimg1{
-width: 10% !important;
-height: 10% !important;
-} 
-.myimg2{
-  width: 50% !important;
-  height: 50% !important;
-  }
-
-.modal-footer{
-text-align: center !important;
-background-color: #1F1E24 !important;
-
-}
-
-.mydemo{
-/* 圓角*/
-border-radius: 10px !important;
-/* 下方間隔變大
-margin-left: 10px; 
-margin-bottom: 10px; 
-*/
-
-
-height:100% !important;
-width:100% !important; 
-}
-
-.img-wrap:hover{
-background-color:black;
-}
-
-.mydemo:hover{ 
-opacity: .5;
-
-}
-
-.myphoto{
-margin-top:0%;
-width:300px;
-height:300px;
-border-radius: 300px;
-
-}
-
-
-/* end of #Projects 區塊*/
 
 /* #FeaturedProjects 區塊OK */
 #FeaturedProjects
@@ -274,6 +177,99 @@ text-align: left;
 
 
 /* end of  #Experience 區塊 */
+
+/* #Projects 區塊*/
+
+#Projects{
+  background-color:#100E17;  
+  width:100% !important; 
+  height:3000px !important; 
+  color:white;
+  
+  }
+  
+  #PContainer{
+  text-align: center; 
+  padding-top:30%  !important;
+  }
+
+  .a1{
+  
+    text-align: center;
+    border:1px black solid;  
+  }
+  
+  #modal1{
+  
+  background-color: #1F1E24 !important;
+  }
+  /* .modal { width: 80% !important ; height: 55% !important ; }  */
+  .modal { 
+  
+  width: 100% !important ;
+  /* height: 150% !important ;
+  overflow: hidden; */
+  
+  } 
+  
+  .myleft{
+  
+  width: 100% !important ;
+  color:white !important;
+  }
+  .myright{
+  text-align: center;
+  width: 100% !important ;
+  }
+  
+  .myimg1{
+  width: 10% !important;
+  height: 10% !important;
+  } 
+  .myimg2{
+    width: 50% !important;
+    height: 50% !important;
+    }
+  
+  .modal-footer{
+  text-align: center !important;
+  background-color: #1F1E24 !important;
+  
+  }
+  
+  .mydemo{
+  /* 圓角*/
+  border-radius: 10px !important;
+  /* 下方間隔變大
+  margin-left: 10px; 
+  margin-bottom: 10px; 
+  */
+  
+  
+  height:100% !important;
+  width:100% !important; 
+  }
+  
+  .img-wrap:hover{
+  background-color:black;
+  }
+  
+  .mydemo:hover{ 
+  opacity: .5;
+  
+  }
+  
+  .myphoto{
+  margin-top:0%;
+  width:300px;
+  height:300px;
+  border-radius: 300px;
+  
+  }
+  
+  
+  /* end of #Projects 區塊*/
+
 
 /* 共用區塊 */
 .section_title
