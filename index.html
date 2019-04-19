@@ -1,0 +1,605 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ABOUT-ME</title>
+    <!-- materializecss 初始化 -->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"   rel="stylesheet"/>
+    <!--Import materialize.css-->
+    <link href="css/materialize/materialize.css" rel="stylesheet"/>    
+    <!-- fontawsome 初始化 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- wow 文字特效初始化 -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- RWD -->
+    <link rel="stylesheet" href="css/index-l.css" media="(min-width:992px) " />
+    <link rel="stylesheet" href="css/index-m.css" media="(min-width: 601px)and (max-width:991px)" /> 
+    <link rel="stylesheet" href="css/index-s.css" media="(max-width: 600px) " /> 
+   
+  </head>
+  <body>
+
+    
+    
+<header>
+    <nav class="mynav">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Materialize</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"  id="mymenu">menu</i></a>
+              <ul class="right hide-on-med-and-down" id="myul">
+                <li><a class="waves-effect" href="#Home" ><i class="fas fa-home fa-2x"></i>HOME</a></li>    
+                <li><a class="waves-effect" href="#About" ><i class="fas fa-user fa-2x"></i>ABOUT</a></li>
+                <li><a class="waves-effect" href="#FeaturedProjects" ><i class="fa fa-star fa-2x" ></i>FEATURED PROJECT</a></li>                   
+                <li><a class="waves-effect" href="#Skill" ><i class="fas fa-wrench fa-2x"></i>SKILL</a></li>
+                <li><a class="waves-effect" href="#Experience" ><i class="fas fa-paper-plane fa-2x"></i></i>EXPERIENCE</a></li>
+                <li><a class="waves-effect" href="#Projects" ><i class="fa fa-code fa-2x" ></i>PROJECTS</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo" >
+                <li><div class="user-view"  style="background-color:  #1F1E24">
+                        <div class="background" >
+                          <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class=" circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                      </div></li>              
+                      <li><a class="waves-effect" href="#Home" onclick="myFunction()"><i class="fas fa-home fa-2x"></i>HOME</a></li>    
+                      <li><a class="waves-effect" href="#About" onclick="myFunction()"><i class="fas fa-user fa-2x"></i>ABOUT</a></li>
+                      <li><a class="waves-effect" href="#FeaturedProjects" onclick="myFunction()"><i class="fa fa-star fa-2x" ></i>FEATURED PROJECT</a></li>      
+                      <li><a class="waves-effect" href="#Skill" onclick="myFunction()"><i class="fas fa-wrench fa-2x"></i>SKILL</a></li>
+                      <li><a class="waves-effect" href="#Experience" onclick="myFunction()"><i class="fas fa-paper-plane fa-2x"></i></i>EXPERIENCE</a></li>
+                      <li><a class="waves-effect" href="#Projects" onclick="myFunction()"><i class="fa fa-code fa-2x" ></i>PROJECTS</a></li>
+          </ul>
+
+</header>
+  
+        <div  id="Home" style="background-color:black; width:100% !important;  height:1024px !important; color:white">
+                <div class="container"  style="padding-top: 10%  !important;">
+                    <div class="row">
+                            <div class="col s12 m12 l6 xl6" style="padding-left: 10%">
+                                    <img src="images/myphoto2.jpg" alt="" class="myphoto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">                                    
+                            </div>                       
+                            <div class="col s12 m12 l6 xl6" style="padding-right:10%;">  
+                                    <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                            <span>Hello I'm</span>
+                                        </div>                                       
+                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Alex Johnson</h2>
+                                    <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Product Designer</h4>
+                            </div>           
+                    </div>
+                </div> 
+          
+        </div>  
+
+        </div>
+
+        <div id="About" style="background-color:#100E17; width:100% !important; height:1024px !important; color:white; ">
+                <div class="container" style="padding-top: 8% !important;">
+                        <div class="row">
+                                <div class="col s12 m12 l6 xl6" style="padding-left:10%;">
+                                        <img src="images/myphoto2.jpg" alt="" class="myphoto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">                                    
+                                </div>                       
+                                <div class="col s12 m12 l6 xl6" style="margin-left:-5%;">  
+                                       
+                                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">About XX </h2>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Paris。
+                                        </p>
+                                </div> 
+                            </div> 
+                            <div class="row" style="margin-top: 5%">
+                                <!-- <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24; margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt; margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Taiwan. 
+                                        </p>
+                                        
+                                </div>    
+                                <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24;  margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt;  margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Taiwan.  
+                                        </p>
+                                </div>  
+                                <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24; margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt; margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Taiwan. 
+                                        </p>
+                                </div>                                                                                                         -->
+                            </div>  
+                            
+                         
+                    </div> 
+        </div>
+
+        <!-- 特色job -->
+        <div id="FeaturedProjects"  >                
+                <div class="container" id="FPContainer">
+                        <div class="row " >
+                                <div class="col s12 m12 l12 xl12"  >
+                                        <div class="wow fadeInUp section_title" data-wow-duration="0.8s" data-wow-delay="0.3s">Featured Project</div>
+                                </div>
+                        </div>
+
+                        <div class="carousel carousel-slider" >
+                                        
+                                        <div class="carousel-item brown darken-2 white-text" href="#one!" >
+                                                <div id="carousel-item_divF">
+                                                <div id="carousel-item_divL">
+                                                        <img id="carousel-item_divL_img" src="images/img-2-3_500X500.jpg" ></img>
+                                                </div>
+                                                <div  id="carousel-item_divR">    
+                                                        
+                                                                <div class="wow fadeInUp" id="FeaturedTextH4"  data-wow-duration="0.8s" data-wow-delay="0.3s" style="color:#0AA78F;">Web Design</div> 
+                                                                <div class="wow fadeInUp" id="FeaturedTextH2"  data-wow-duration="0.8s" data-wow-delay="0.5s">MES Dashboard</div> 
+                                                                <span class="wow fadeInUp" id="FeaturedTextspan"  data-wow-duration="0.8s" data-wow-delay="0.8s">Design & Development</span>
+                                                                <p class="wow fadeInUp" id="FeaturedTextp"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                                                Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                                All variations are organized separately so you can use / customize the template very easily.
+                                                                </p>                                                                                                                                                                                                                                                        
+                                                </div> 
+                                                </div>                                                     
+
+                                                        
+
+                                        </div>
+                                        <div class="carousel-item amber darken-2 white-text" href="#two!">
+                                                        <div id="carousel-item_divF">
+                                                                        <div id="carousel-item_divL">
+                                                                                <img id="carousel-item_divL_img" src="images/img-2-6_500X500.jpg" ></img>
+                                                                        </div>
+                                                                        <div  id="carousel-item_divR">    
+                                                                                
+                                                                                        <div class="wow fadeInUp" id="FeaturedTextH4"  data-wow-duration="0.8s" data-wow-delay="0.3s" style="color:#0AA78F;">DATA Collection</div> 
+                                                                                        <div class="wow fadeInUp" id="FeaturedTextH2"  data-wow-duration="0.8s" data-wow-delay="0.5s">MES Dashboard</div> 
+                                                                                        <span class="wow fadeInUp" id="FeaturedTextspan"  data-wow-duration="0.8s" data-wow-delay="0.8s">programmer</span>
+                                                                                        <p class="wow fadeInUp" id="FeaturedTextp"  data-wow-duration="0.8s" data-wow-delay="0.8s">
+                                                                                        Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                                                        It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                                                        It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                                                        All variations are organized separately so you can use / customize the template very easily.
+                                                                                        </p>                                                                                                                                                                                                                                                        
+                                                                        </div> 
+                                                                        </div>    
+                                        </div>
+                                        <div class="carousel-item green white-text" href="#three!">
+                                          <div class="container">
+                                            <h2>Third Slide</h2>
+                                            <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
+                                          </div>  
+                                        </div>
+                                        <div class="carousel-item blue white-text" href="#four!">
+                                          <div class="container">
+                                            <h2>Fourth Slide</h2>
+                                            <p class="white-text">Etiam porta sem malesuada magna mollis euismod.</p>
+                                          </div>  
+                                        </div>
+                                      </div> 
+                                                                                            
+                </div>                     
+        </div>  
+
+        <!-- 技術 -->
+        <div id="Skill" >
+                <div class="container" id="SKContainer" >
+                        <div class="row">
+                                <div class="col s12 m12 l12 xl12"  >                
+                                        <div class="wow fadeInUp  section_title" data-wow-duration="0.8s" data-wow-delay="0.3s">Skill</div>
+                                </div>        
+                        </div>
+                        <div class="row">                              
+                                <div class="col s12 m12 l6 xl6" >
+                                        <div class="row">
+                                                <div class="col s12 m12 l12 xl12">  
+                                                        <div class="SkillText1">
+                                                                Technical Skills
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col s12 m12 l12 xl12"> 
+                                                        <div class="SkillText1">
+                                                                Languages
+                                                        </div>
+                                                        <div class="lang">       
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/c-logo96X96.png" class="lang2"></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">C#</div>                                  
+                                                                </div>   
+                                                        </div>
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/html596X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">html</div>                                  
+                                                                </div>                                       
+                                                        </div>
+                                                        <div class="lang">  
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/css3-logo96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">CSS</div>                                  
+                                                                </div>   
+                                                        </div>
+                                                        <div class="lang">  
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/javascript-logo96X96.png" class="lang2" ></img>   
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">javascript</div>                                  
+                                                                </div>   
+                                                        </div>
+                                                        <div class="lang">  
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/jquery96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">jquery</div>                                  
+                                                                </div> 
+                                                        </div>
+                                                                                       
+                                                </div>
+                                        </div> 
+                                        <div class="row">  
+                                                <div class="col s12 m12 l12 xl12">                                               
+                                                        <div class="SkillText1">
+                                                                Framework
+                                                        </div>          
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/aspmvc96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">.net mvc</div>                                  
+                                                                </div>   
+                                                        </div> 
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/bootstrap-logo96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">bootstrap</div>                                  
+                                                                </div>   
+                                                        </div>                                                               
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/materialize96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">materialize</div>                                  
+                                                        </div>   
+                                                        </div>
+                                                </div>                                                                                               
+                                        </div>  
+                                        <div class="row">
+                                                <div class="col s12 m12 l12 xl12">              
+                                                        <div class="SkillText1">
+                                                                        Database & Tools 
+                                                        </div>  
+                                                        <div class="lang">    
+                                                                        <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                                <img src="images/SQLserver96X96.png" class="lang2" ></img>
+                                                                                <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">SQLServer</div>                                  
+                                                                        </div>   
+                                                                </div>                                                                 
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/visual-studio-logo96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">v-studio</div>                                  
+                                                                </div>   
+                                                        </div> 
+                                                        <div class="lang">    
+                                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                        <img src="images/vscode96X96.png" class="lang2" ></img>
+                                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">vs code</div>                                  
+                                                                </div>   
+                                                        </div>
+
+                                                </div>                                                                                                                                                       
+                                        </div>                                     
+                                </div>
+                        
+                                <div class="col s12 m12 l6 xl6" id="PSBlock" >
+                                        <div class="row">
+                                                <div class="col s12 m12 l12 xl12">  
+                                                        <div class="SkillText1">
+                                                                Personal Skills
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="row">
+                                                <div class="col s12 m12 l12 xl12"> 
+                                                        <div  class=" wow fadeInUp SkillText1"   data-wow-duration="0.8s" data-wow-delay="0.1s">English (TOEIC 805)</div>
+                                                        <div style="Display:table; margin-bottom: 5%;">
+                                                                <div class="progress" style="Display:table-cell; ">
+                                                                        <div class="determinate" style="width: 85%"></div>
+                                                                </div>
+                                                                <div style="Display:table-cell; ">
+                                                                        <span style="font-size: 12pt;">&nbsp;85%</span>
+                                                                </div>
+                                                        </div>
+                                                        
+                                                        <div  class=" wow fadeInUp SkillText1"   data-wow-duration="0.8s" data-wow-delay="0.1s">Team Work</div>
+                                                        <div style="Display:table; margin-bottom: 5%;">
+                                                                <div class="progress" style="Display:table-cell; ">
+                                                                        <div class="determinate" style="width: 55%"></div>
+                                                                </div>
+                                                                <div style="Display:table-cell; ">
+                                                                        <span style="font-size: 12pt;">&nbsp;55%</span>
+                                                                </div>
+                                                        </div>  
+                                                        
+                                                        <div  class=" wow fadeInUp SkillText1"   data-wow-duration="0.8s" data-wow-delay="0.1s">Project Management</div>
+                                                        <div style="Display:table; margin-bottom: 5%;">
+                                                                <div class="progress" style="Display:table-cell; ">
+                                                                        <div class="determinate" style="width: 86%"></div>
+                                                                </div>
+                                                                <div style="Display:table-cell; " >
+                                                                        <span style="font-size: 12pt;">&nbsp;86%</span>
+                                                                </div>
+                                                        </div> 
+
+                                                        <div  class=" wow fadeInUp SkillText1"   data-wow-duration="0.8s" data-wow-delay="0.1s">Creativity</div>
+                                                        <div style="Display:table; margin-bottom: 5%;">
+                                                                <div class="progress" style="Display:table-cell; ">
+                                                                        <div class="determinate" style="width: 60%"></div>
+                                                                </div>
+                                                                <div style="Display:table-cell; ">
+                                                                        <span style="font-size: 12pt;">&nbsp;60%</span>
+                                                                </div>
+                                                        </div>    
+
+                                                        <div  class=" wow fadeInUp SkillText1"   data-wow-duration="0.8s" data-wow-delay="0.1s">Communication</div>
+                                                        <div style="Display:table; margin-bottom: 5%;">
+                                                                <div class="progress" style="Display:table-cell; ">
+                                                                        <div class="determinate" style="width: 95%"></div>
+                                                                </div>
+                                                                <div style="Display:table-cell; ">
+                                                                        <span style="font-size: 12pt;">&nbsp;95%</span>
+                                                                </div>
+                                                        </div>                                        
+                                                </div>
+                                        </div>                                        
+
+
+
+                                </div>                        
+                        
+                        
+                        
+                        
+                        
+                        </div>                 
+                </div>   
+        </div>       
+        
+        <!-- 經驗 -->
+        <div id="Experience" >
+                <div class="container" id="EXContainer">
+                        <div class="row">
+                                <div class="col s12 m12 l12 xl12"  >                
+                                        <div class="wow fadeInUp  section_title" data-wow-duration="0.8s" data-wow-delay="0.3s">Experience</div>
+                                </div> 
+                        </div> 
+                        <div class="row">
+                                <div class="col s12 m6 l6 xl6">
+                                        <div class="EXTitle1">Education</div>
+                                        <div class="card" >
+                                                <div class="card-content white-text">
+                                                        <div class="card-title" >
+                                                        Art & Multimedia From Oxford University
+                                                        </div>                                                       
+                                                        <div  class="card-mycontent" >
+                                                        2005-2008
+                                                        </div>
+                                                        <p>                                                        
+                                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                                                        </p>
+                                                </div>
+                                        </div>
+                                        <div class="card" >
+                                                <div class="card-content white-text">
+                                                        <div class="card-title" >
+                                                        Art & Multimedia From Oxford University
+                                                        </div>                                                       
+                                                        <div  class="card-mycontent" >
+                                                        2005-2008
+                                                        </div>
+                                                        <p>                                                        
+                                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                                                        </p>
+                                                </div>
+                                        </div>
+                                        <div class="card" >
+                                                <div class="card-content white-text">
+                                                        <div class="card-title" >
+                                                        Art & Multimedia From Oxford University
+                                                        </div>                                                       
+                                                        <div  class="card-mycontent" >
+                                                        2005-2008
+                                                        </div>
+                                                        <p>                                                        
+                                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                                                        </p>
+                                                </div>
+                                                </div>
+                                        <div class="card" >
+                                                <div class="card-content white-text">
+                                                        <div class="card-title" >
+                                                        Art & Multimedia From Oxford University
+                                                        </div>                                                       
+                                                        <div  class="card-mycontent" >
+                                                        2005-2008
+                                                        </div>
+                                                        <p>                                                        
+                                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+                                                        </p>
+                                                </div>
+                                        </div>                                                                                
+                                </div>
+
+                        <div class="col s12 m6 l6 xl6">
+                                <div class="EXTitle1">Work Experience</div>
+                                <div class="card" >
+                                        <div class="card-content white-text">
+                                                <div class="card-title" >
+                                                UI/UX Designer
+                                                </div>                                                       
+                                                <div  class="card-mycontent" >
+                                                2005-2008
+                                                </div>
+                                                <div  class="card-mycontent2" >
+                                                <p>Responsibility :</p>
+                                                <ul>
+                                                        <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                                        <li><i class="fa fa-circle"></i>Project Management</li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card" >
+                                        <div class="card-content white-text">
+                                                <div class="card-title" >
+                                                UI/UX Designer
+                                                </div>                                                       
+                                                <div  class="card-mycontent" >
+                                                2005-2008
+                                                </div>
+                                                <div  class="card-mycontent2" >
+                                                <p>Responsibility :</p>
+                                                <ul>
+                                                        <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                                        <li><i class="fa fa-circle"></i>Project Management</li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card" >
+                                        <div class="card-content white-text">
+                                                <div class="card-title" >
+                                                UI/UX Designer
+                                                </div>                                                       
+                                                <div  class="card-mycontent" >
+                                                2005-2008
+                                                </div>
+                                                <div  class="card-mycontent2" >
+                                                <p>Responsibility :</p>
+                                                <ul>
+                                                        <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                                        <li><i class="fa fa-circle"></i>Project Management</li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="card" >
+                                        <div class="card-content white-text">
+                                                <div class="card-title" >
+                                                UI/UX Designer
+                                                </div>                                                       
+                                                <div  class="card-mycontent" >
+                                                2005-2008
+                                                </div>
+                                                <div  class="card-mycontent2" >
+                                                <p>Responsibility :</p>
+                                                <ul>
+                                                        <li><i class="fa fa-circle"></i>Validate CSS</li>
+                                                        <li><i class="fa fa-circle"></i>Project Management</li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                </div> 
+                        </div>
+                                
+                        </div>                                
+                        </div>
+
+
+
+
+
+                </div> 
+        </div> 
+
+         <!--專案  -->
+         <div id="Projects" >                 
+                <div class="container" id="PContainer" style="text-align:center;">
+                        <div class="row" id="myprojects_row">
+
+                            <div class="a1 col s12 m12 l6 xl3" style="height:300px;width:300px;"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-1500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-2500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-3500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-4500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-5500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-6500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-7500X500.jpg"></img></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-8500X500.jpg"></img></div></a></div>
+                        </div> 
+                    </div>                  
+        </div> 
+
+
+      
+
+                    
+
+
+
+
+
+
+
+
+
+<div class="gototop">TOP</div>
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+        <div class="modal-content" >            
+          
+        
+            <div class="row">
+                <div class="col s12 m12 l5 xl5" >
+                        <div class="myleft">
+                        <h4 id='modal_title'></h4>
+                        <p id='modal_text'></p>
+                        <br/>
+                        <div id='modal_skill'>
+                        <img class="myimg1" src="images/c-logo.png">
+                        <img class="myimg1" src="images/javascript-logo.png">
+                        <img class="myimg1" src="images/html5-logo.png">
+                        <img class="myimg1" src="images/css3-logo.png"> 
+                        </div>
+                </div>                                         
+                </div>
+                <div class="col s12 m12 l7 xl7">
+                                <div class="myright">
+                        <img class="myimg2" id="myimg1" src="images/img-1.jpg">
+                        </div>
+                </div>
+            </div>
+       
+
+           
+        </div>
+        <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-white btn-flat" style="color:white">CLOSE</a>
+        </div>
+   </div>
+
+
+
+
+  </body>
+
+  
+
+
+<!-- materializecss 初始化 -->
+<script src="js/jquery/jquery-1.10.2.js"></script> 
+<script src="js/materialize/materialize.min.js"></script> 
+<!-- wow 文字特效初始化 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+<script src="js/index.js"></script>
+
+</html>

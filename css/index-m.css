@@ -1,0 +1,276 @@
+/* 這段是在作 當畫面縮小的時候 , 側邊欄隱藏 , 畫面放大的時候 , 側邊欄顯示 */
+/* header, main, footer {
+  padding-left: 310px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+} */
+
+
+
+/* 單頭的css */
+/* 修改漢堡圖案的大小 */
+#mymenu{
+
+  font-size: 50px !important;
+
+}
+/* 固定上方menu欄位的CSS */
+.menufixed{ z-index: 999; position: fixed; top: 0; width: 100%;}
+
+.brand-logo
+{
+
+  font-size: 14pt !important;
+}
+
+.mynav {
+  background-color: #1F1E24 !important;
+}
+
+/*end of  單頭的css */
+
+/* gototop */
+.gototop{
+  width:50px;
+  height:50px;
+  line-height:50px;
+  font-family:verdana;
+  text-align:center;
+  background:#F63E3E;
+  color:#fff;
+  position:fixed;
+  bottom:20px;
+  right:30px;
+  border-radius:50%;
+  text-decoration:none;
+  cursor: pointer;
+  /*先隱藏*/
+  display:none;
+}
+/*end of gototop */
+
+/* #Projects 區塊*/
+
+#Projects{
+  background-color:#100E17;  
+  width:100% !important; 
+  height:1024px !important; 
+  color:white;
+  
+  }
+  
+  #PContainer{
+  text-align: center; 
+  padding-top: 8%  !important;
+  }
+  
+
+  .a1{
+
+    text-align: center;
+  border:1px black solid;  
+  }
+
+#modal1{
+
+  background-color: #1F1E24 !important;
+}
+/* .modal { width: 80% !important ; height: 55% !important ; }  */
+.modal { 
+
+  width: 100% !important ;
+  /* height: 150% !important ;
+  overflow: hidden; */
+
+} 
+
+.myleft{
+
+  width: 100% !important ;
+  color:white !important;
+}
+.myright{
+  text-align: center;
+  width: 100% !important ;
+}
+
+.myimg1{
+  width: 100% !important;
+  height: 100% !important;
+  } 
+.myimg2{
+    width: 50% !important;
+    height: 50% !important;
+    }
+
+.modal-footer{
+text-align: center !important;
+background-color: #1F1E24 !important;
+
+}
+
+.mydemo{
+  /* 圓角*/
+  border-radius: 10px !important;
+  /* 下方間隔變大
+  margin-left: 10px; 
+  margin-bottom: 10px; 
+ */
+ /* height:250px !important;
+ width:250px !important;  */
+}
+
+
+
+.img-wrap:hover{
+background-color:black;
+}
+
+.mydemo:hover{ 
+  opacity: .5;
+
+}
+
+.myphoto{
+  margin-top:0%;
+  width:300px;
+  height:300px;
+  border-radius: 300px;
+  
+}
+
+/* end of #Projects 區塊*/
+
+/* #FeaturedProjects 區塊OK */
+#FeaturedProjects
+{
+  background-color:darkblue; 
+  color:white;
+  width:100%; 
+  height:1280px; 
+  border:1px solid red;
+
+}
+#FPContainer{
+ text-align: center; 
+ padding-top: 15%;
+
+}
+ /* important不可移除 高度要指定px */
+.carousel{
+  height: 896px !important;
+    }
+  #carousel-item_divL_img
+  {
+    width:100%;
+    height:100%;
+  }
+  #FeaturedTextH2
+  {
+    font-size: 18pt;
+  }
+  #FeaturedTextH4
+  {
+    font-size: 18pt;
+  }
+/* end of #FeaturedProjects 區塊 */
+
+/* #Skill 區塊OK */
+#Skill{
+
+  background-color:darkblue; 
+  width:100% ; 
+  height:1536px; 
+  color:white;
+  border:1px solid red;
+}
+#SKContainer{
+  text-align: center; 
+  padding-top: 15%;
+}
+.SkillText1{
+  font-size: 24pt ;  
+}
+/* icon大小設定 */
+.lang
+{
+background-color: #1F1E24;
+width:96px;
+height:96px;
+border:1px solid red;
+text-align: center ; 
+float:left;
+margin-right:10px;
+}
+.lang2
+{
+  width:100%;
+  height:100%; 
+}
+#PSBlock{
+  margin-top: 5%;
+}
+
+
+/* end of  #Skill 區塊 */
+
+/* #Experience 區塊 */
+#Experience{
+  background-color:darkblue; 
+  width:100% !important; 
+  height:1408px !important; 
+  color:white;
+  border:1px solid red;
+  }
+  #EXContainer{
+    text-align: center; 
+    padding-top: 15%;
+  }
+  .EXTitle1{
+    color:white;
+    font-weight:bold !important;
+    font-size: 16pt !important;
+    text-align: center !important;
+  
+  }
+  .card{
+  
+    background-color:#1F1E24; 
+  }
+  .card-title{
+  
+  color:#0AA78F;
+  font-weight:bold !important;
+  font-size: 16pt !important;
+  text-align: left !important;
+  
+  }
+  .card-mycontent{
+  color:#0AA78F;
+  font-size: 14pt;
+  text-align: left;
+  }
+  .card-mycontent2{
+    color:white;
+    font-size: 14pt;
+    text-align: left;
+  }
+  
+  
+  
+  /* end of  #Experience 區塊 */
+  
+
+
+/* 共用區塊 */
+.section_title
+{
+
+  font-size:48pt !important;
+}
+/* end of 共用區塊 */
+

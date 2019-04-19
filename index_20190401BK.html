@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ABOUT-ME</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"   rel="stylesheet"/>
+    <link href="css/materialize/materialize.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"  /> -->
+  
+    <!-- old css breakpoint 螢幕顯示OK -->
+    <!-- <link rel="stylesheet" href="css/index-l.css"/>
+    <link rel="stylesheet" href="css/index-m.css" media="only screen and (min-width:768px) and (max-width:979px)" />
+    <link rel="stylesheet" href="css/index-s.css"  media="only screen and (max-width:767px)" /> -->
+    <!-- <link rel="stylesheet" href="css/index-l.css" media="(min-width: 992px)" />
+     <link rel="stylesheet" href="css/index-m.css" media="(min-width: 601px)" /> 
+    <link rel="stylesheet" href="css/index-s.css" media="(max-width: 600px) " /> -->
+  
+    <link rel="stylesheet" href="css/index-l.css"  />
+       
+  </head>
+  <body>
+
+    
+    
+<header>
+    <nav class="mynav">
+            <div class="nav-wrapper">
+              <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Materialize</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"  id="mymenu">menu</i></a>
+              <ul class="right hide-on-med-and-down" id="myul">
+                    <li><a class="waves-effect" href="#home" onclick="myFunction()"><i class="fas fa-home fa-2x"></i>HOME</a></li>    
+                    <li><a class="waves-effect" href="#about" onclick="myFunction()"><i class="fas fa-user fa-2x"></i>ABOUT</a></li>
+                    <li><a class="waves-effect" href="#skill" onclick="myFunction()"><i class="fas fa-wrench fa-2x"></i>SKILL</a></li>
+                    <li><a class="waves-effect" href="#projects" onclick="myFunction()"><i class="fa fa-code fa-2x" ></i>PROJECTS</a></li>
+                    <li><a class="waves-effect" href="#contact" onclick="myFunction()"><i class="fas fa-paper-plane fa-2x"></i></i>CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo" >
+                <li><div class="user-view"  style="background-color:  #1F1E24">
+                        <div class="background" >
+                          <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class=" circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                      </div></li>              
+                      <li><a class="waves-effect" href="#home" onclick="myFunction()"><i class="fas fa-home fa-2x"></i>HOME</a></li>    
+                      <li><a class="waves-effect" href="#about" onclick="myFunction()"><i class="fas fa-user fa-2x"></i>ABOUT</a></li>
+                      <li><a class="waves-effect" href="#skill" onclick="myFunction()"><i class="fas fa-wrench fa-2x"></i>SKILL</a></li>
+                      <li><a class="waves-effect" href="#projects" onclick="myFunction()"><i class="fa fa-code fa-2x" ></i>PROJECTS</a></li>
+                      <li><a class="waves-effect" href="#contact" onclick="myFunction()"><i class="fas fa-paper-plane fa-2x"></i></i>CONTACT</a></li>
+          </ul>
+
+</header>
+  
+
+      <!-- <div id="home" class="mysection col s12" >HOME</div>
+      <div id="about" class="mysection col s12">ABOUT</div>
+      <div id="skill" class="mysection col s12">SKILL</div>
+      <div id="projects" class="mysection col s12">PROJECTS</div>
+      <div id="contact" class="mysection col s12">CONTACT</div> -->
+
+
+      <!-- <div  id="home" class="col-sm-12 " style="background-image:url(images/myphoto2.jpg); width:100%; height:100vh;"> -->
+
+        <div  id="home" style="background-color:black; width:100% !important; height:1024px !important; color:white">
+                <div class="container"  style="padding-top: 10%">
+                    <div class="row">
+                            <div class="col s12 m12 l6 xl6" style="padding-left: 10%">
+                                    <img src="images/myphoto2.jpg" alt="" class="myphoto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">                                    
+                            </div>                       
+                            <div class="col s12 m12 l6 xl6" style="padding-right:10%;">  
+                                    <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                            <span>Hello I'm</span>
+                                        </div>                                       
+                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Alex Johnson</h2>
+                                    <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Product Designer</h4>
+                            </div>           
+                    </div>
+                </div> 
+          
+        </div>  
+
+        </div>
+
+        <div id="about" style="background-color:#100E17; width:100% !important; height:1024px !important; color:white; ">
+                this is about
+                <div class="container" style="padding-top: 8%;">
+                        <div class="row">
+                                <div class="col s12 m12 l6 xl6" style="padding-left:10%;">
+                                        <img src="images/myphoto2.jpg" alt="" class="myphoto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">                                    
+                                </div>                       
+                                <div class="col s12 m12 l6 xl6" style="margin-left:-10%;">  
+                                       
+                                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">About XX </h2>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Paris. 
+                                                年那去夠不叫，辦爭管什地，在只表為多？我男原；心被資之一。上子自鄉出人英，語些什國完技的府黃會一重組一山就體現是留文，
+                                                間們的加計大神張也現布調說本國？羅多最年根腳黨是國我，和力日盡。主種策的叫，結程政國爭麼料入們房果學……學消一頭經我那我外於優交愛但口
+                                                多必至拿立無火多亞；持性樹來如後、樂原否北深預行立事，華有賽出面爸間想正。
+                                        </p>
+                                </div> 
+                            </div> 
+                            <div class="row" style="margin-top: 5%">
+                                <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24; margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt; margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Paris. 
+                                                年那去夠不叫，辦爭管什地，在只表為多？我男原；心被資之一。上子自鄉出人英，語些什國完技的府黃會一重組一山就體現是留文，
+                                                間們的加計大神張也現布調說本國？羅多最年根腳黨是國我，和力日盡。主種策的叫，結程政國爭麼料入們房果學……學消一頭經我那我外於優交愛但口
+                                                多必至拿立無火多亞；持性樹來如後、樂原否北深預行立事，華有賽出面爸間想正。
+                                        </p>
+                                    
+                                </div>    
+                                <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24;  margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt;  margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Paris. 
+                                                年那去夠不叫，辦爭管什地，在只表為多？我男原；心被資之一。上子自鄉出人英，語些什國完技的府黃會一重組一山就體現是留文，
+                                                間們的加計大神張也現布調說本國？羅多最年根腳黨是國我，和力日盡。主種策的叫，結程政國爭麼料入們房果學……學消一頭經我那我外於優交愛但口
+                                                多必至拿立無火多亞；持性樹來如後、樂原否北深預行立事，華有賽出面爸間想正。
+                                        </p>
+                                </div>  
+                                <div class="col s12 m2 l4 xl3 z-depth-5 wow fadeInUp" style="text-align: center; background-color: #1F1E24; margin-left: 5%;"  data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <i class="fas fa-desktop wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" style="font-size: 64pt; margin-top: 5%"></i>
+                                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">HELLO WORLD</h4>
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Hello, I’m a Patrick, web-developer based on Paris. 
+                                                年那去夠不叫，辦爭管什地，在只表為多？我男原；心被資之一。上子自鄉出人英，語些什國完技的府黃會一重組一山就體現是留文，
+                                                間們的加計大神張也現布調說本國？羅多最年根腳黨是國我，和力日盡。主種策的叫，結程政國爭麼料入們房果學……學消一頭經我那我外於優交愛但口
+                                                多必至拿立無火多亞；持性樹來如後、樂原否北深預行立事，華有賽出面爸間想正。
+                                        </p>
+                                </div>                                                                                                        
+                            </div>  
+                            
+                         
+                    </div> 
+        </div>
+        <div style="background-color:gray; width:100% !important; height:1024px !important; color:white; ">
+            <div class="container" style="text-align: center;">
+                <div class="row">
+                    <div class="col s12 m12 l12 xl12" ><h2>Featured Projects</h2></div>
+                </div>                  
+            </div>                 
+        </div>
+        <div id="skill" style="background-color:#100E17; width:100% !important; height:1024px !important; color:white" >
+                <div class="container" style="text-align: left; padding-top: 8%;">
+                        <div class="row">
+                            <div class="col s12 m12 l12 xl12" >
+                                <h2>Technical Skills</h2>
+                            </div>
+                        </div>                         
+
+                        <div class="row"> 
+                                <div class="col s12 m12 l6 xl6">
+                                <div >
+                                        <h4>Languages</h4> 
+                                </div>    
+                            <div class="lang">    
+                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <img src="images/c-logo96X96.png" ></img>
+                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">C#</div>                                  
+                                </div>   
+                            </div>
+                            <div class="lang">   
+                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <img src="images/html596X96.png" ></img>
+                                            <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">html</div>                                  
+                                    </div>                                       
+                            </div>
+                            <div class="lang">   
+                                        <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                <img src="images/css3-logo96X96.png" ></img>
+                                               <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">CSS</div>                                  
+                                        </div>   
+                                    </div>                        
+                            <div class="lang">    
+                                    <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <img src="images/javascript-logo96X96.png" ></img>   
+                                           <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">javascript</div>                                  
+                                    </div>   
+                            </div>
+                            <div class="lang">   
+                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                        <img src="images/jquery96X96.png" ></img>
+                                           <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">jquery</div>                                  
+                                </div>                                       
+                            </div>
+                        </div>
+                        <div class="col s12 m12 l6 xl6">
+                        <div>
+                                <h4>Database</h4> 
+                        </div>
+                                <div class="lang">    
+                                        <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                <img src="images/SQLserver96X96.png" ></img>
+                                                <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">SQLServer</div>                                  
+                                        </div>   
+                                </div> 
+                        </div>
+
+                                                                                            
+                        </div> 
+
+                        <div class="row"> 
+                                <div  class="col s12 m12 l6 xl6">  
+                                        <div>
+                                                <h4>Framework</h4> 
+                                        </div>          
+                                        <div class="lang">    
+                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                        <img src="images/aspmvc96X96.png" ></img>
+                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">.net mvc</div>                                  
+                                                </div>   
+                                        </div> 
+                                        <div class="lang">    
+                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                        <img src="images/bootstrap-logo96X96.png" ></img>
+                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">bootstrap</div>                                  
+                                                </div>   
+                                        </div> 
+                                        
+                                        <div class="lang">    
+                                                <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                        <img src="images/materialize96X96.png" ></img>
+                                                        <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">materialize</div>                                  
+                                                </div>   
+                                        </div> 
+                                </div>
+                                                        
+                                <div  class="col s12 m12 l6 xl6">  
+                                        <div>
+                                                <h4>Tools</h4> 
+                                        </div>          
+                                        <div class="lang">    
+                                                        <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                <img src="images/visual-studio-logo96X96.png" ></img>
+                                                                <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">visual-studio</div>                                  
+                                                        </div>   
+                                        </div> 
+                                        <div class="lang">    
+                                                        <div class=" wow fadeInUp"   data-wow-duration="0.8s" data-wow-delay="0.1s">  
+                                                                <img src="images/vscode96X96.png" ></img>
+                                                                <div class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">vs code</div>                                  
+                                                        </div>   
+                                        </div>                                 
+                                </div>                                                            
+                        </div>    
+                                                                                                                                                                  
+                </div>   
+        </div>              
+        <div id="contact" style="background-color:black; width:100% !important; height:1024px !important; color:white">
+                        this is work-exprence
+                </div>  
+         <div id="projects" style="background-color:black; width:100% !important; height:100% !important; color:white"> 
+                this is project
+                <div class="container" >
+                        <div class="row" id="myprojects_row">
+
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-1500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-2500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-3500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-4500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-5500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-6500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-7500X500.jpg"></div></a></div>
+                            <div class="a1 col s12 m12 l6 xl3"><a  href="#" class="modal-trigger" data-target="modal1"> <div class="img-wrap"><img class="mydemo" src="images/img-8500X500.jpg"></div></a></div>
+                        </div> 
+                    </div>                  
+        </div> 
+
+                   
+
+
+
+
+
+
+<div class="gototop">TOP</div>
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+        <div class="modal-content" >            
+          
+        
+            <div class="row">
+                <div class="col s12 m12 l5 xl5" >
+                        <div class="myleft">
+                        <h4 id='modal_title'></h4>
+                        <p id='modal_text'></p>
+                        <br/>
+                        <div id='modal_skill'>
+                        <img class="myimg1" src="images/c-logo.png">
+                        <img class="myimg1" src="images/javascript-logo.png">
+                        <img class="myimg1" src="images/html5-logo.png">
+                        <img class="myimg1" src="images/css3-logo.png"> 
+                        </div>
+                </div>                                         
+                </div>
+                <div class="col s12 m12 l7 xl7">
+                                <div class="myright">
+                        <img class="myimg2" id="myimg1" src="images/img-1.jpg">
+                        </div>
+                </div>
+            </div>
+       
+
+           
+        </div>
+        <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-white btn-flat" style="color:white">CLOSE</a>
+        </div>
+   </div>
+
+
+
+
+  </body>
+  <script src="js/jquery/jquery-1.10.2.js"></script>
+  <script src="js/materialize/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+  <script src="js/index.js"></script>
+</html>
