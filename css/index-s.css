@@ -9,7 +9,11 @@
   }
 } */
 
+.brand-logo
+{
 
+  font-size: 14pt !important;
+}
 
 /* 單頭的css */
 /* 修改漢堡圖案的大小 */
@@ -20,12 +24,6 @@
 }
 /* 固定上方menu欄位的CSS */
 .menufixed{ z-index: 999; position: fixed; top: 0; width: 100%;}
-
-.brand-logo
-{
-
-  font-size: 14pt !important;
-}
 
 .mynav {
   background-color: #1F1E24 !important;
@@ -54,7 +52,15 @@
 /*end of gototop */
 
 
+/* #Home 區塊OK */
+#home{
+  height:832px !important; 
+}
 
+#HContainer{
+  padding-top: 10%  !important;
+}
+/* end of #Home 區塊OK */
 
 
 
@@ -62,11 +68,11 @@
 /* #FeaturedProjects 區塊OK */
 #FeaturedProjects
 {
-  background-color:gray; 
+  background-color: #100E17; 
   color:white;
   width:100%; 
   height:832px; 
-  border:1px solid red;
+  /* border:1px solid red; */
 
 }
 #FPContainer{
@@ -96,11 +102,11 @@ height: 650px !important;
 /* #Skill 區塊OK */
 #Skill{
 
-  background-color:darkgray; 
+  background-color:black;
   width:100%; 
   height:1152px; 
   color:white;
-  border:1px solid red;
+  /* border:1px solid red; */
 }
 #SKContainer{
   text-align: center; 
@@ -112,10 +118,10 @@ height: 650px !important;
 /* icon大小設定 */
 .lang
 {
-background-color: purple;
+/* background-color: purple; */
 width:72px;
 height:72px;
-border:1px solid red;
+/* border:1px solid red; */
 text-align: center ; 
 float:left;
 margin:12px;
@@ -134,11 +140,11 @@ margin:12px;
 
 /* #Experience 區塊 */
 #Experience{
-background-color:darkgray; 
+background-color:#100E17; 
 width:100% !important; 
 height:2176px !important; 
 color:white;
-border:1px solid red;
+/* border:1px solid red; */
 }
 #EXContainer{
   text-align: center; 
@@ -153,7 +159,7 @@ border:1px solid red;
 }
 .card{
 
-  background-color:#1F1E24; 
+  background-color:#1F1E24;
 }
 .card-title{
 
@@ -181,7 +187,7 @@ text-align: left;
 /* #Projects 區塊*/
 
 #Projects{
-  background-color:#100E17;  
+  background-color:black;  
   width:100% !important; 
   height:3000px !important; 
   color:white;

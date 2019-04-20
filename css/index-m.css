@@ -53,12 +53,20 @@
 }
 /*end of gototop */
 
+/* #Home 區塊OK */
+#home{
+  height:832px !important; 
+}
 
+#HContainer{
+  padding-top: 10%  !important;
+}
+/* end of #Home 區塊OK */
 
 /* #FeaturedProjects 區塊OK */
 #FeaturedProjects
 {
-  background-color:darkblue; 
+  background-color: #100E17;
   color:white;
   width:100%; 
   height:1280px; 
@@ -92,11 +100,11 @@
 /* #Skill 區塊OK */
 #Skill{
 
-  background-color:darkblue; 
+  background-color:black;
   width:100% ; 
   height:1536px; 
   color:white;
-  border:1px solid red;
+  /* border:1px solid red; */
 }
 #SKContainer{
   text-align: center; 
@@ -111,7 +119,7 @@
 background-color: #1F1E24;
 width:96px;
 height:96px;
-border:1px solid red;
+/* border:1px solid red; */
 text-align: center ; 
 float:left;
 margin-right:10px;
@@ -130,11 +138,11 @@ margin-right:10px;
 
 /* #Experience 區塊 */
 #Experience{
-  background-color:darkblue; 
+  background-color: #100E17;
   width:100% !important; 
   height:1408px !important; 
   color:white;
-  border:1px solid red;
+  /* border:1px solid red; */
   }
   #EXContainer{
     text-align: center; 
@@ -149,7 +157,7 @@ margin-right:10px;
   }
   .card{
   
-    background-color:#1F1E24; 
+    background-color:#1F1E24;
   }
   .card-title{
   
@@ -178,9 +186,9 @@ margin-right:10px;
 /* #Projects 區塊*/
 
 #Projects{
-  background-color:#100E17;  
+  background-color:black; 
   width:100% !important; 
-  height: 3072px !important; 
+  height: 5500px !important; 
   color:white;
   
   }
@@ -192,78 +200,78 @@ margin-right:10px;
   
 
   .a1{
-
+  
     text-align: center;
-  border:1px black solid;  
+    border:1px black solid;  
   }
-
-#modal1{
-
+  
+  #modal1{
+  
   background-color: #1F1E24 !important;
-}
-/* .modal { width: 80% !important ; height: 55% !important ; }  */
-.modal { 
-
+  }
+  /* .modal { width: 80% !important ; height: 55% !important ; }  */
+  .modal { 
+  
   width: 100% !important ;
   /* height: 150% !important ;
   overflow: hidden; */
-
-} 
-
-.myleft{
-
+  
+  } 
+  
+  .myleft{
+  
   width: 100% !important ;
   color:white !important;
-}
-.myright{
+  }
+  .myright{
   text-align: center;
   width: 100% !important ;
-}
-
-.myimg1{
-  width: 100% !important;
-  height: 100% !important;
+  }
+  
+  .myimg1{
+  width: 10% !important;
+  height: 10% !important;
   } 
-.myimg2{
+  .myimg2{
     width: 50% !important;
     height: 50% !important;
     }
-
-.modal-footer{
-text-align: center !important;
-background-color: #1F1E24 !important;
-
-}
-
-.mydemo{
+  
+  .modal-footer{
+  text-align: center !important;
+  background-color: #1F1E24 !important;
+  
+  }
+  
+  .mydemo{
   /* 圓角*/
   border-radius: 10px !important;
   /* 下方間隔變大
   margin-left: 10px; 
   margin-bottom: 10px; 
- */
- /* height:250px !important;
- width:250px !important;  */
-}
-
-
-
-.img-wrap:hover{
-background-color:black;
-}
-
-.mydemo:hover{ 
+  */
+  
+  
+  height:100% !important;
+  width:100% !important; 
+  }
+  
+  .img-wrap:hover{
+  background-color:black;
+  }
+  
+  .mydemo:hover{ 
   opacity: .5;
-
-}
-
-.myphoto{
+  
+  }
+  
+  .myphoto{
   margin-top:0%;
   width:300px;
   height:300px;
   border-radius: 300px;
   
-}
+  }
 
 /* end of #Projects 區塊*/
 

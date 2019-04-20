@@ -9,7 +9,7 @@
     padding-left: 0;
   }
 } */
-
+/* 單頭的css */
 /* 修改漢堡圖案的大小 */
 #mymenu{
 
@@ -25,7 +25,10 @@
 /* 固定上方menu欄位的CSS */
 .menufixed{ z-index: 999; position: fixed; top: 0; width: 100%;}
 
-
+.mynav {
+  background-color: #1F1E24 !important;
+  }
+/*end of  單頭的css */
 
 /* gototop */
 .gototop{
@@ -45,117 +48,29 @@
   /*先隱藏*/
   display:none;
 }
+/*end of gototop */
 
-.a1{
-
-  text-align: center;
-border:1px black solid;  
+/* #Home 區塊OK */
+#home{
+  height:832px !important; 
 }
 
-#modal1{
-
-background-color: #1F1E24 !important;
+#HContainer{
+  padding-top: 10%  !important;
 }
-/* .modal { width: 80% !important ; height: 55% !important ; }  */
-.modal { 
-
-width: 100% !important ;
-/* height: 150% !important ;
-overflow: hidden; */
-
-} 
-
-.myleft{
-
-width: 100% !important ;
-color:white !important;
-}
-.myright{
-text-align: center;
-width: 100% !important ;
-}
-
-.myimg1{
-width: 10% !important;
-height: 10% !important;
-} 
-.myimg2{
-  width: 50% !important;
-  height: 50% !important;
-  }
-
-.modal-footer{
-text-align: center !important;
-background-color: #1F1E24 !important;
-
-}
+/* end of #Home 區塊OK */
 
 
-
-.mynav {
-background-color: #1F1E24 !important;
-}
-
-body{
-/* background-color: #100E17 !important; */
-}
-
-/* #Projects 區塊*/
-
-
-#Projects{
-  background-color:#100E17!important;   
-  color:white;
-  width:100% !important; 
-  height:1024px !important; 
-  }
-  #PContainer{
-  text-align: center; 
-  padding-top: 8%  !important;
-  }
-  
-.mydemo{
-/* 圓角*/
-border-radius: 10px !important;
-/* 下方間隔變大
-margin-left: 10px; 
-margin-bottom: 10px; 
-*/
-
-
-height:100% !important;
-width:100% !important; 
-}
-
-.img-wrap:hover{
-background-color:black;
-}
-
-.mydemo:hover{ 
-opacity: .5;
-
-}
-
-.myphoto{
-margin-top:0%;
-width:300px;
-height:300px;
-border-radius: 300px;
-
-}
-
-
-/* end of #Projects 區塊*/
 
 
 /* #FeaturedProjects 區塊OK */
 #FeaturedProjects
 {
-background-color:black; 
+background-color:#100E17; 
 color:white; 
 width:100% ; 
 height:1280px; 
-border:1px solid red;
+/* border:1px solid red; */
 }
 #FPContainer{
   text-align: center; 
@@ -175,12 +90,12 @@ border:1px solid red;
 }
 #carousel-item_divF{
 
-  border:1px solid red;
+  /* border:1px solid red; */
   text-align: center;
 }
 #carousel-item_divL{
   display:inline-block;
-  border:1px solid red;
+  /* border:1px solid red; */
   width:50%;
   height:100%;
 }
@@ -189,7 +104,7 @@ border:1px solid red;
   vertical-align: top;
   background-color: white;
   color:black;
-  border:1px solid red;
+  /* border:1px solid red; */
   width:45%;
   height:100%;
   padding-top: 10%;
@@ -215,11 +130,11 @@ border:1px solid red;
 /* #Skill 區塊OK */
 #Skill{
 
-  background-color:#100E17; 
+  background-color:black;
   width:100% ; 
   height:1024px; 
   color:white;
-  border:1px solid red;
+  /* border:1px solid red; */
 }
 #SKContainer{
   text-align: center; 
@@ -234,7 +149,7 @@ border:1px solid red;
 background-color: #1F1E24;
 width:96px;
 height:96px;
-border:1px solid red;
+/* border:1px solid red; */
 text-align: center ; 
 float:left;
 margin-right:10px;
@@ -248,11 +163,11 @@ margin-right:10px;
 
 /* #Experience 區塊 */
 #Experience{
-  background-color:black; 
+  background-color:#100E17;  
   width:100% !important; 
   height:1536px !important; 
   color:white;
-  border:1px solid red;
+  /* border:1px solid red; */
   }
   #EXContainer{
     text-align: center; 
@@ -291,6 +206,97 @@ margin-right:10px;
   
   
   /* end of  #Experience 區塊 */
+
+
+
+/* #Projects 區塊*/
+
+
+#Projects{
+  background-color:black!important;   
+  color:white;
+  width:100% !important; 
+  height:1800px !important; 
+  }
+  #PContainer{
+  text-align: center; 
+  padding-top: 8%  !important;
+  }
+  
+.mydemo{
+/* 圓角*/
+border-radius: 10px !important;
+/* 下方間隔變大
+margin-left: 10px; 
+margin-bottom: 10px; 
+*/
+
+
+height:100% !important;
+width:100% !important; 
+}
+
+.img-wrap:hover{
+background-color:black;
+}
+
+.mydemo:hover{ 
+opacity: .5;
+
+}
+
+.myphoto{
+margin-top:0%;
+width:300px;
+height:300px;
+border-radius: 300px;
+
+}
+.a1{
+
+  text-align: center;
+/* border:1px black solid;   */
+}
+
+#modal1{
+
+background-color: #1F1E24 !important;
+}
+/* .modal { width: 80% !important ; height: 55% !important ; }  */
+.modal { 
+
+width: 100% !important ;
+/* height: 150% !important ;
+overflow: hidden; */
+
+} 
+
+.myleft{
+
+width: 100% !important ;
+color:white !important;
+}
+.myright{
+text-align: center;
+width: 100% !important ;
+}
+
+.myimg1{
+width: 10% !important;
+height: 10% !important;
+} 
+.myimg2{
+  width: 50% !important;
+  height: 50% !important;
+  }
+
+.modal-footer{
+text-align: center !important;
+background-color: #1F1E24 !important;
+
+}  
+
+/* end of #Projects 區塊*/
 
 
 /* 共用區塊 */
