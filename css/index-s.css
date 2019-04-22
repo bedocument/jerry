@@ -97,6 +97,11 @@ height: 650px !important;
 {
   font-size: 18pt;
 }
+.FeaturedTextp
+{
+  text-align: left;
+  margin-left: 10%;
+}
 /* end of #FeaturedProjects 區塊*/
 
 /* #Skill 區塊OK */
@@ -142,13 +147,14 @@ margin:12px;
 #Experience{
 background-color:#100E17; 
 width:100% !important; 
-height:2176px !important; 
+/* height:2176px !important;  */
+height:1664px !important; 
 color:white;
 /* border:1px solid red; */
 }
 #EXContainer{
   text-align: center; 
-  padding-top: 15%;
+  padding-top: 30%;
 }
 .EXTitle1{
   color:white;
