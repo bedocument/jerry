@@ -198,85 +198,94 @@ new WOW().init();
       //mycheck_text=img-1 , img-2, img-3......用此去MyobjArray找
       console.log(' mycheck_text='+ mycheck_text);
       let MyobjArray = [
-        { img: 'img-1', title: '訂餐系統',
+        { img: 'img-1', title: 'ordering system',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png">',
-        text:"以C#翻寫原有ASP的系統,並另外有手機版網頁。"+
-             "<br/>完成時間:2014年"+
+        text:"the system was builded with asp for a long time ago , so i rebuild this system with asp.net"+
+            "Additionally,i also build a RWD version."+
+             "<br/>Complete time:2014"+
              "<ul>"+
-             "<li>訂餐</li>"+
-             "<li>設定菜單</li>"+
-             "<li>查詢訂餐紀錄</li>"+
-             "<li>金額月統計</li>"+
-             "<li>未訂餐通知</li>"+
+             "<li>Features：</li>"+
+             "<li>-ordering</li>"+
+             "<li>-setting menu</li>"+
+             "<li>-querying record </li>"+
+             "<li>-statistics</li>"+
+             "<li>-ordering notice</li>"+
             "</ul>"        　
          },
-        { img: 'img-2', title: 'MES-Dashboard',
+        { img: 'img-2', title: 'MES-Dashboard system',
         skill:'<img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png">',
-        text:"即時呈現機台生產數據並以視覺化網頁呈現。"+
-             "<br/>完成時間:2018年"+
+        text:"The Dashboard displays the equipment connection static and the equipment real-time data immediately."+
+             "<br/>Complete time:2018"+
              "<ul>"+
-             "<li>統計進度</li>"+
-             "<li>機台連線狀況</li>"+
-             "<li>機台生產數據</li>"+
+             "<li>Features：</li>"+             
+             "<li>-production Statistics</li>"+
+             "<li>-equipment connection statics</li>"+
+             "<li>-real time equipment data</li>"+             
             "</ul>"        　
          },
-        { img: 'img-3', title: '待辦事項簽核系統',
+        { img: 'img-3', title: 'Todolist Approval System',
         skill:'<img class="myimg1" src="images/kendoui.png"><img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/bootstrap-logo.png">',
-        text:"供人員追蹤工作上的重要待辦事項並給予主管簽核查看進度,並套用kendoUI。"+
-             "<br/>完成時間:2017年"+
+        text:"the system supplys the employees with tracking the todolist of the jobs."+
+             "<br/>Complete time:2017"+
              "<ul>"+
-             "<li>新增待辦事項</li>"+
-             "<li>簽核待辦事項</li>"+
-             "<li>查詢待辦事項</li>"+
+             "<li>Features：</li>"+             
+             "<li>-create todolist</li>"+
+             "<li>-approval todolist</li>"+
+             "<li>-query todolist/li>"+
             "</ul>"        　
          },
-        { img: 'img-4', title: '員工專用區(手機版)',
+        { img: 'img-4', title: 'Employee system(RWD)',
         skill:'<img class="myimg1" src="images/bootstrap-logo.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png"> ',
-        text:"將下列功能以bootstrap建立RWD網頁,並嵌入Android app裡面。"+
-             "<br/>完成時間:2016年"+
+        text:"the system supplys the employees with common useful function."+
+             "<br/>Complete time:2016"+
              "<ul>"+
-             "<li>訂餐系統</li>"+
-             "<li>分機查詢</li>"+
-             "<li>機房監控</li>"+
-             "<li>生產管理資訊</li>"+
+             "<li>Features：</li>"+             
+             "<li>-ordering system</li>"+
+             "<li>-extension query</li>"+
+             "<li>-IDC monitoring</li>"+
+             "<li>-production management data</li>"+
             "</ul>"        　
          },
-        { img: 'img-5', title: 'AD帳號系統',
+        { img: 'img-5', title: 'AD account system',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/bootstrap-logo.png">',
-        text:"以網頁方式供管理者-增刪修-使用者AD帳號和Email,加速作業流程。"+
-             "<br/>完成時間:2015年"+
+        text:"the system supplys the IT staff with Easier way to create AD account."+
+             "<br/>Complete time:2015"+
              "<ul>"+
-             "<li>查詢-建立AD帳號,群組</li>"+
-             "<li>建立Email</li>"+
-             "<li>設定離職人員</li>"+
-             "<li>刪除離職帳號及信箱</li>"+
+             "<li>Features：</li>"+            
+             "<li>-query,create AD account</li>"+
+             "<li>-create Email</li>"+
+             "<li>-disable AD account/Email</li>"+
+             "<li>-delete AD account/Email</li>"+
             "</ul>"        　
          },
-        { img: 'img-6', title: 'Line溫濕度機器人',
+        { img: 'img-6', title: 'Line-Temperature and humidity chatbot',
         skill:'<img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:"使用LineBot即時通知機房溫度狀態,避免機房溫濕度異常。"+
-             "<br/>完成時間:2016年"+
+        text:"the chatbot will alarm as soon as the Temperature or the humidity Exceeds the standard."+
+             "<br/>Complete time:2016"+
              "<ul>"+
-             "<li>溫濕度查詢</li>"+
-             "<li>溫濕度異常Line通知</li>"+
+             "<li>Features：</li>"+            
+             "<li>-query temperature and humidity</li>"+
+             "<li>-temperature and humidity alarm</li>"+
             "</ul>"        　
          },     
-        { img: 'img-7', title: '滿意度調查表',
+        { img: 'img-7', title: 'Satisfaction Survey system ',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:"供人員填寫人資訓練滿意度調查表。"+
-             "<br/>完成時間:2012年"+
+        text:"the system supplys the employees with the response of the Staff Training."+
+             "<br/>Complete time:2012"+
              "<ul>"+
-             "<li>填寫滿意度調查表</li>"+
-             "<li>報表統計</li>"+
+             "<li>Features：</li>"+             
+             "<li>-Questionnaire</li>"+
+             "<li>-Statistics</li>"+
             "</ul>"        　
          }, 
-        { img: 'img-8', title: '課程系統',
+        { img: 'img-8', title: 'training system',
         skill:'<img class="myimg1" src="images/c-logo.png"><img class="myimg1" src="images/SQLserver.png">',
-        text:"供人員填寫教育訓練課後考試。"+
-             "<br/>完成時間:2013年"+
+        text:"the system supplys the employees with testing after the training course."+
+             "<br/>Complete time:2013"+
              "<ul>"+
-             "<li>設定考試題庫</li>"+
-             "<li>人員考試</li>"+
+             "<li>Features：</li>"+            
+             "<li>-setting question</li>"+
+             "<li>-test</li>"+
             "</ul>"        　
          },          
       ];
