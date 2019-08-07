@@ -208,18 +208,18 @@ new WOW().init();
              "<li>-ordering</li>"+
              "<li>-setting menu</li>"+
              "<li>-querying record </li>"+
-             "<li>-statistics</li>"+
+             "<li>-status</li>"+
              "<li>-ordering notice</li>"+
             "</ul>"        　
          },
         { img: 'img-2', title: 'MES-Dashboard system',
         skill:'<img class="myimg1" src="images/restapi.png"><img class="myimg1" src="images/SQLserver.png"><img class="myimg1" src="images/javascript-logo.png"><img class="myimg1" src="images/html5-logo.png"><img class="myimg1" src="images/css3-logo.png">',
-        text:"The Dashboard displays the equipment connection static and the equipment real-time data immediately."+
+        text:"The Dashboard displays the equipment connection status and the equipment real-time data immediately."+
              "<br/>Complete time:2018"+
              "<ul>"+
              "<li>Features：</li>"+             
-             "<li>-production Statistics</li>"+
-             "<li>-equipment connection statics</li>"+
+             "<li>-production status</li>"+
+             "<li>-equipment connection status</li>"+
              "<li>-real time equipment data</li>"+             
             "</ul>"        　
          },
@@ -231,7 +231,7 @@ new WOW().init();
              "<li>Features：</li>"+             
              "<li>-create todolist</li>"+
              "<li>-approval todolist</li>"+
-             "<li>-query todolist/li>"+
+             "<li>-query todolist </li>"+
             "</ul>"        　
          },
         { img: 'img-4', title: 'Employee system(RWD)',
